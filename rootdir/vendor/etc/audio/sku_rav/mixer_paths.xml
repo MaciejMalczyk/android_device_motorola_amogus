@@ -944,6 +944,7 @@
 
 	<path name="speaker-mic">
 		<path name="mic2" />
+		<ctl name="ADC2 Volume" value="4" />
 	</path>
 
 	<path name="handset">

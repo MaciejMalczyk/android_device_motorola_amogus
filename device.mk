@@ -146,3 +146,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 $(call inherit-product, device/motorola/common/common.mk)
 # include board vendor blobs
 $(call inherit-product-if-exists, vendor/motorola/amogus/amogus-vendor.mk)
+
+
+#MindTheGapps
+include vendor/gapps/arm64/arm64-vendor.mk
